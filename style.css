@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather{
+    width: 500px;
+    background: #387eba;
+    border-radius: 15px;
+    padding: 20px 40px;
+    color: white;
+    position:relative;
+}
+.weather_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather h1{
+    text-align: center;
+    margin: 50px 0 0;
+}
+.weather_bottom{
+    display: flex;
+    justify-content: space-around;
+    background: #418dd0;
+    width: 100%;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    border-radius:0 0 15px 15px;
+    padding: 15px 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: gainsboro;
+}
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    outline: none;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+
+}
+
+.weather img{
+    margin: 0 0 20px 150px;
+}
+
+form{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
